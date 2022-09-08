@@ -9,11 +9,11 @@
 WiFiClient wifiClient;
 QubitroMqttClient mqttClient(wifiClient);
 
-char deviceID[] = "2133ddf2-9867-43bf-b021-9e9bf474e3fe";
-char deviceToken[] = "mhOWbTUbY4PfaWiOPNRk0B$akFOAP56hIY8p6vwo";
+char deviceID[] = " ";
+char deviceToken[] = " ";
 
-const char* ssid = "viano";
-const char* password = "viano2019";
+const char* ssid = " ";
+const char* password = " ";
 
 
 SoftwareSerial e5(D2, D3);
